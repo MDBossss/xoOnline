@@ -24,7 +24,7 @@
 
 ![Screen Shot](images/showcase.png)
 
-xoOnline is an upgraded version of the classic Tic-Tac-Toe game, originally found in the official React.js documentation. This project serves as a practical learning resource and an opportunity to delve into socket.io.
+xoOnline is an upgraded version of the classic Tic-Tac-Toe game, originally found in the official React.js [documentation](https://react.dev/learn/tutorial-tic-tac-toe). This project serves as a practical learning resource and an opportunity to delve into socket.io.
 
 Key Features:
 

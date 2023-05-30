@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import { calculateWinner, filledElementsOfArray } from '../../utils/gameUtils';
 import Square from '../Square/Square'
+import getNextTurn from '../../utils/getNextTurn';
 
 const Board = ({currentPlayer,squares,onPlay,handleCurrentPlayer,handleRestart}) => {
 
@@ -27,7 +28,12 @@ const Board = ({currentPlayer,squares,onPlay,handleCurrentPlayer,handleRestart})
             nextSquares[index] = "X";
         }
         else{
-            nextSquares[index] = currentPlayer;
+            if(getNextTurn(squares) == currentPlayer){
+                return;
+            }
+            else{
+                nextSquares[index] = currentPlayer;
+            }
         }
         onPlay(nextSquares);
     }

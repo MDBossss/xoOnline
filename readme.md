@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">xoOnline </h3>
+  <h1 align="center">xoOnline - TicTacToe game</h1>
 
   <p align="center">
     A simple multiplayer tic-tac-toe game made using React + Vite, SASS, Node.js, Express and socket.io
